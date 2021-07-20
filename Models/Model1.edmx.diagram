@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4d71db04a65a466293e6fdfa81a4ca37" Name="Diagram1">
+        <EntityTypeShape EntityType="MyDBModel.Applicant" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Course" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Course_Offers" Width="1.5" PointX="7.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Department" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Employee" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Job" Width="1.5" PointX="2.375" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Organization" Width="1.5" PointX="3.125" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Project" Width="1.5" PointX="7.5" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.sysdiagram" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Vacancy" Width="1.5" PointX="4.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Works_For" Width="1.5" PointX="9.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Works_On" Width="1.5" PointX="9.75" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="MyDBModel.FK_Employee_Applicant" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Course_Offers_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Course_Offers_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Department_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Department_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Works_For_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Project_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Works_On_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Vacancies_Job" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Works_On_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.Apply_For" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.Assign" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.Run" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
